@@ -8,7 +8,6 @@ import {
   BackgroundImage,
 } from "@mantine/core";
 import { useForm } from "@mantine/form";
-import { Layout } from "./Layout";
 
 export const Page1 = () => {
   const form = useForm({
@@ -24,8 +23,8 @@ export const Page1 = () => {
 
   return (
     <div className="Page1">
-      <BackgroundImage src="https://media.istockphoto.com/photos/starry-galaxy-elements-of-this-image-furnished-by-nasa-picture-id472563456?k=20&m=472563456&s=612x612&w=0&h=78CkY99PkeYmbs6RfnnJZgTholrh0epnBjvz-uvYIcg=">
-        <Box sx={{ maxWidth: 300 }} mx="auto">
+      <BackgroundImage src="https://media.istockphoto.com/photos/triangular-abstract-background-picture-id624878906?b=1&k=20&m=624878906&s=170667a&w=0&h=57IoHbozH8_2NOiZyx7dRZcWkrhhUnzW1aRHk43_nWg=">
+        <Box>
           <form onSubmit={form.onSubmit((values) => console.log(values))}>
             <TextInput
               withAsterisk
