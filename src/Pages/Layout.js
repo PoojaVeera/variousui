@@ -15,7 +15,7 @@ export const Layout = () => {
         withNormalizeCSS
         className="Layout"
       >
-        <Link to="/Page1" style={{ textDecoration: "none" }} className="Page1">
+        <Link to="/Page1" style={{ textDecoration: "none" }}>
           style1
         </Link>
       </MantineProvider>
